@@ -1,11 +1,13 @@
 // Configuración de firebase
 const firebaseConfig = {
-  // 🔐 REEMPLAZA ESTOS CAMPOS CON TUS CLAVES DE FIREBASE
-  apiKey: "TU_API_KEY",
-  authDomain: "TU_AUTH_DOMAIN",
-  projectId: "TU_PROJECT_ID",
-  appId: "TU_APP_ID"
+  apiKey: "AIzaSyCB0UvAnvADnBVLZyCLimjDM5q39yvSoYM",
+  authDomain: "yestlj.firebaseapp.com",
+  projectId: "yestlj",
+  storageBucket: "yestlj.firebasestorage.app",
+  messagingSenderId: "634813248764",
+  appId: "1:634813248764:web:31f00ef24432f68f1b1379"
 };
+
 
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
