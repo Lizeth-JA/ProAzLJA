@@ -64,7 +64,7 @@ async function crearReserva() {
     return;
   }
 
-  const respuesta = await fetch("https://TU-FUNCTION.azurewebsites.net/api/createReservation", {
+  const respuesta = await fetch("https://funappjal-c0fjghgxhde2b4a5.canadacentral-01.azurewebsites.net/api/reserva", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
